@@ -1,0 +1,29 @@
+.body{
+	margin-top:30px;
+}
+.container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding-top: 50px;
+  border-radius: 25px;
+  border: 1px solid #73AD21;
+  }
+.form-control{
+	margin-left: 3px;
+}
+	
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.time {
+  margin: 0 5px;
+}
+
+#alarms-list {
+  margin-top: 20px;
+ }

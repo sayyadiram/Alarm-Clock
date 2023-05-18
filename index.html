@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 align="center">Alarm Clock</h1>
+    <div class="clock">
+      <div id="hour" class="time"></div>
+      <div id="minute" class="time"></div>
+      <div id="second" class="time"></div>
+      <div id="am-pm" class="time"></div>
+    </div>
+    <div class="form-inline">
+      <div class="form-group">
+        <input type="number" id="alarm-hour" min="1" max="12" class="form-control" placeholder="0">
+      </div>
+	   <b>:</b>
+      <div class="form-group">
+        <input type="number" id="alarm-minute" min="0" max="59" class="form-control" placeholder="0">
+      </div>
+	   <b>:</b>
+      <div class="form-group">
+        <input type="number" id="alarm-second" min="0" max="59" class="form-control" placeholder="0">
+      </div>
+      <div class="form-group">
+        <select id="alarm-am-pm" class="form-control">
+          <option value="am">AM</option>
+          <option value="pm">PM</option>
+        </select>
+      </div>
+      <button id="set-alarm-btn" class="btn btn-primary ml-2" >Set Alarm</button>
+    </div>
+    <div id="alarms-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
